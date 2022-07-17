@@ -11,3 +11,6 @@
 2022-07-17: Issue: Block characters in rofi and terminal. And alcritty would not start. Installed firefox with fonts from ttf-dejavu and the problem went away.
 2022-07-17: Installed urxvt initially because alacritty wouldn't run. Uninstalled it now that everything's up and running and rofi works. 
 2022-07-17: Also installed neofetch and started editing my bashrc. I will now (finally) begin configuring the system to my liking. 
+2022-07-17: Installed doom emacs. Will install fish as my default shell and starship as my prompt next. Will also likely configure alacritty with DejaVu Sans Mono font and monokai pro colors.
+2022-07-17: Also need to figure out why bpswm is opening emacs in a floating window.
+2022-07-17: And also figure out multi-monitors.
