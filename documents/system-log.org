@@ -1,0 +1,13 @@
+2022-07-16: Re-installed Arch, again. With network configured by default this time. 
+2022-07-16: Messed up secure boot instructions. Trying again. Quick note
+2022-07-16: Holy crap, I got it. Mostly followed the instructions on the Arch Linux Wiki. 
+2022-07-16: Some deviations were from a post on r/SurfaceLinux, titled "How to setup secure boot on Arch with GRUB" 
+2022-07-16: Specifically, mounting my boot partition to /boot/efi. 
+2022-07-16: Used mokutil --disable-validation to bypass secure boot on Linux alone.
+2022-07-16: Also, worth noting about the install this time: Used archinstall, did not manually configure my network this time.
+2022-07-16: Also not a minimal install- xorg support and graphics card integration is already included. Same with pulseaudio.
+2022-07-17: Alright, a-lot accomplished today. Got xinit up and running and bpswm. Can launch it all with the startx command. 
+2022-07-17: Issue: Blank screen on startx. Forgot to actually install sxhkd (for some reason didn't think it was a separate program).
+2022-07-17: Issue: Block characters in rofi and terminal. And alcritty would not start. Installed firefox with fonts from ttf-dejavu and the problem went away.
+2022-07-17: Installed urxvt initially because alacritty wouldn't run. Uninstalled it now that everything's up and running and rofi works. 
+2022-07-17: Also installed neofetch and started editing my bashrc. I will now (finally) begin configuring the system to my liking. 
