@@ -1,0 +1,8 @@
+/** Basic config file **/
+
+configuration {
+  modi: "run";
+  font: "DejaVu Sans Mono 14";
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}

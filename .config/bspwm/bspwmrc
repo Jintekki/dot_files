@@ -9,6 +9,7 @@
 
 ### AUTOSTART ###
 sxhkd &
+alacritty &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
