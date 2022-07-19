@@ -15,19 +15,21 @@ super + Return
 	alacritty
 
 # program launcher
-super + @space
+super + d
 	~/.config/rofi/launchers/colorful/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
+super + b
+    firefox
 #
 # bspwm hotkeys
 #
 
 # quit/restart bspwm
-super + alt + {q,r}
+super + shift + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
