@@ -1,0 +1,7 @@
+#!/bin/bash
+monitors=$(xrandr | grep " connected " | awk {'print $1'})
+mon1=$(echo $monitors | awk {'print $1'})
+mon2=$(echo $monitors | awk {'print $2'})
+mon3=$(echo $monitors | awk {'print $3'})
+xrandr --auto --output $mon2 --left-of $mon1 &&
+xrandr --auto --output $mon3 --left-of $mon2 --rotate left
