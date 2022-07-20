@@ -32,6 +32,8 @@
 - Preferred text-editor (and it does other stuff, but I just edit text)
 - Preferred version of emacs is Doom Emacs
 - Configs found in ~/.emacs.d, but should not be touched due to Doom Emacs
+** feh
+- Used for wallpaper
 ** fish
 - Preferred shell to use in terminal emulators
 ** gawk
@@ -106,3 +108,5 @@
 - 2022-07-17: Installed doom emacs. Will install fish as my default shell and starship as my prompt next. Will also likely configure alacritty with DejaVu Sans Mono font and monokai pro colors.
 - 2022-07-17: Also need to figure out why bpswm is opening emacs in a floating window.
 - 2022-07-17: And also figure out multi-monitors.
+- 2022-07-19: I've begun writing a monitors script, but for some reason it has to be ran twice before working completely.
+- 2022-07-19: But that's okay, it was my first one.

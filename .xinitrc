@@ -37,4 +37,5 @@ fi
 
 ### START-UP ###
 sxhkd &
+fehbg &
 exec bspwm
