@@ -34,6 +34,7 @@
 - Configs found in ~/.emacs.d, but should not be touched due to Doom Emacs
 ** feh
 - Used for wallpaper
+- Use feh --bg-scale [image1] [image2] [image3] to set different image on each background
 ** fish
 - Preferred shell to use in terminal emulators
 ** gawk
