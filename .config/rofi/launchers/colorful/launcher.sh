@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-#                   _ _ _ _  _ _ _
-#       | | |     |    |    |      |    | |    | |
-#       | | |\    |    |    |      |   /  |   /  |
-#       | | |  \  |    |    |-     |\/    |\/    |
-# |     | | |    \|    |    |      |  \   |  \   |
-#  \ _ /  | |     |    |    |_ _ _ |    \ |    \ |
+#                  ██ ██ ███    ██ ████████ ███████ ██   ██ ██   ██ ██ 
+#                  ██ ██ ████   ██    ██    ██      ██  ██  ██  ██  ██ 
+# █████ █████      ██ ██ ██ ██  ██    ██    █████   █████   █████   ██ 
+#             ██   ██ ██ ██  ██ ██    ██    ██      ██  ██  ██  ██  ██ 
+#              █████  ██ ██   ████    ██    ███████ ██   ██ ██   ██ ██
 #
 ## Original Author  : Aditya Shakya
 ## Mail    : adi1090x@gmail.com
@@ -53,4 +52,4 @@ EOF
 # themes=($(ls -p --hide="launcher.sh" --hide="colors.rasi" $dir))
 # theme="${themes[$(( $RANDOM % 12 ))]}"
 
-rofi -no-lazy-grab -show drun -modi drun -theme $dir/"$theme"
+rofi -no-lazy-grab -show drun -m -2 -modi drun -theme $dir/"$theme"
