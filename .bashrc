@@ -16,5 +16,6 @@ PS1='[\u@\h \W]\$ '
 
 # Run neofetch and other aesthetic start-up commands
 cat ~/documents/jintekki_ascii
+echo ''
 neofetch
 fish
