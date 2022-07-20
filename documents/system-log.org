@@ -1,10 +1,100 @@
+
+                 ██ ██ ███    ██ ██   ██ ███████ ██   ██ ██   ██ ██ 
+                 ██ ██ ████   ██ ██  ██  ██      ██  ██  ██  ██  ██ 
+█████ █████      ██ ██ ██ ██  ██ █████   █████   █████   █████   ██ 
+            ██   ██ ██ ██  ██ ██ ██  ██  ██      ██  ██  ██  ██  ██ 
+             █████  ██ ██   ████ ██   ██ ███████ ██   ██ ██   ██ ██
+
+* Hardware
+** monitors
+- Custom monitor bash script created to handle xrandr on start-up
+- Currently located in ~/.monitors
+* Software
+** alacritty
+- Terminal emulator of choice, primarily for its cross-OS compatibility
+- Config found at ~/.config/alacritty/alacritty.yml
+** awk
+- See 'gawk'
+** bash
+- Default, system-wide shell
+- Bash start-up script found in ~/.bashrc
+** bspwm
+- Current window manager, previously used i3
+- Config found at ~/.config/bspwm/bspwmrc
+- Keybinding configured using sxhkd /(see sxhkd for more details)/
+** discord
+- Configs found in ./config/discord, but haven't needed to be touched
+- Discord configs added to yadm .gitignore
+** doom emacs
+- Emacs with evil mode (vim key-bindings and emulation)
+- Configs found in ~/.doom.d
+** emacs
+- Preferred text-editor (and it does other stuff, but I just edit text)
+- Preferred version of emacs is Doom Emacs
+- Configs found in ~/.emacs.d, but should not be touched due to Doom Emacs
+** fish
+- Preferred shell to use in terminal emulators
+** gawk
+- GNU awk, the GNU version of the text-processing language
+** gimp
+** git
+** grep
+** gvim
+- Vim, but with clipboard functionality (and more stuff)
+** mokutil
+- Used for configuring secure boot. See 'Secure Boot' section for more details
+** neofetch
+- I just think it looks cool
+** pacman
+- Arch package manager
+** rofi
+- Does a lot of things, I use it as an app launcher
+** starship
+- Cool terminal prompt
+** sxhkd
+- Program to handle key-bindings, necessary with bspwm
+- Config found at ~/.config/sxhkd/sxhkdrc
+** yadm
+- Used to manage dot files, works just like git
+** vim
+- See 'gvim'
+* Misc
+** Fonts
+*** Preferred Font
+- DejuVu Sans Mono
+** Theme
+*** Preferred Theme
+- Monokai Pro
+** Colors
+*** Primary:
+- background :: 0x2d2a2e
+- foreground :: 0xfff1f3
+*** Normal:
+- black :: 0x2c2525
+- red :: 0xfd6883
+- green :: 0xadda78
+- yellow :: 0xf9cc6c
+- blue :: 0xf38d70
+- magenta :: 0xa8a9eb
+- cyan :: 0x85dacc
+- white :: 0xfff1f3
+*** Bright:
+- black :: 0x72696a
+- red :: 0xfd6883
+- green :: 0xadda78
+- yellow :: 0xf9cc6c
+- blue :: 0xf38d70
+- magenta :: 0xa8a9eb
+- cyan :: 0x85dacc
+- white :: 0xfff1f3
+* Log :: /Significant events and troubleshooting/
 - 2022-07-16: Re-installed Arch, again. With network configured by default this time.
 - 2022-07-16: Messed up secure boot instructions. Trying again. Quick note
 - 2022-07-16: Holy crap, I got it. Mostly followed the instructions on the Arch Linux Wiki.
 - 2022-07-16: Some deviations were from a post on r/SurfaceLinux, titled "How to setup secure boot on Arch with GRUB"
 - 2022-07-16: Specifically, mounting my boot partition to /boot/efi.
 - 2022-07-16: Used mokutil --disable-validation to bypass secure boot on Linux alone.
-- 2022-07-16: Also, worth noting about the install this time: Used archinstall, did not manually configure my network this time.
+- 2022-07-16: Also, worth noting about the install this time: Used archinstall, did not manually configure my network.
 - 2022-07-16: Also not a minimal install- xorg support and graphics card integration is already included. Same with pulseaudio.
 - 2022-07-17: Alright, a-lot accomplished today. Got xinit up and running and bpswm. Can launch it all with the startx command.
 - 2022-07-17: Issue: Blank screen on startx. Forgot to actually install sxhkd (for some reason didn't think it was a separate program).
