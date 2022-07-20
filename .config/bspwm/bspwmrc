@@ -10,7 +10,6 @@
 ### AUTOSTART ###
 sxhkd &
 alacritty &
-bash ~/.monitors &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 

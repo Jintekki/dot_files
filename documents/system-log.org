@@ -8,7 +8,7 @@
 * Hardware
 ** monitors
 - Custom monitor bash script created to handle xrandr on start-up
-- Currently located in ~/.monitors
+- Currently located in ~/.local/bin/.monitors
 * Software
 ** alacritty
 - Terminal emulator of choice, primarily for its cross-OS compatibility
@@ -59,6 +59,8 @@
 ** vim
 - See 'gvim'
 * Misc
+** Custom Scripts
+- Custom scripts are kept in ~/.local/bin
 ** Fonts
 *** Preferred Font
 - DejuVu Sans Mono
