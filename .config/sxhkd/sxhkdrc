@@ -24,6 +24,9 @@ super + Escape
 
 super + b
     firefox
+
+super + e
+	  emacs
 #
 # bspwm hotkeys
 #
