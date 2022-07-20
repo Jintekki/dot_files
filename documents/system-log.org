@@ -111,3 +111,4 @@
 - 2022-07-17: And also figure out multi-monitors.
 - 2022-07-19: I've begun writing a monitors script, but for some reason it has to be ran twice before working completely.
 - 2022-07-19: But that's okay, it was my first one.
+- 2022-07-19: feh --bg-scale images/arch_linux_wallpaper_2.png images/arch_linux_wallpaper_vertical.png images/arch_linux_wallpaper_2.png
