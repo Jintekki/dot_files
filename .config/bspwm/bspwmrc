@@ -7,7 +7,6 @@
 
 ### AUTOSTART ###
 monitors.sh &
-~/.fehbg &
 sxhkd &
 alacritty &
 

@@ -17,4 +17,6 @@ fish
 
 ### ALIASES ###
 alias ls='ls --color=auto'
+
+### PROMPT ###
 PS1='[\u@\h \W]\$ '
