@@ -5,8 +5,14 @@
 #             ██   ██ ██ ██  ██ ██ ██  ██  ██      ██  ██  ██  ██  ██ 
 #              █████  ██ ██   ████ ██   ██ ███████ ██   ██ ██   ██ ██ 
 
+# Grab all three monitors- I should always have three monitors so there's no need to get fancy here.
 monitors=$(xrandr | grep " connected " | awk {'print $1'})
 mon1=$(echo $monitors | awk {'print $1'})
 mon2=$(echo $monitors | awk {'print $2'})
 mon3=$(echo $monitors | awk {'print $3'})
+
+# Set monitor order
 xrandr --output $mon2 --auto --left-of $mon1 --output $mon3 --auto --left-of $mon2 --rotate left
+
+# Adding this to fix buggy behavior with feh on start-up
+sleep 2
