@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/jintekki/images/arch_linux_wallpaper_2.png' '/home/jintekki/images/arch_linux_wallpaper_2.png' '/home/jintekki/images/arch_linux_wallpaper_vertical.png' 
