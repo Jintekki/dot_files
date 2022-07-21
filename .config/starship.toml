@@ -27,7 +27,7 @@ up_to_date = "✓"
 disabled = false
 
 [hostname]
-format = "[::](bold white)[$ssh_symbol$hostname](bold cyan) "
+format = "[::](bold white)[$ssh_symbol$hostname](bold purple) "
 ssh_only = false
 disabled = false
 
