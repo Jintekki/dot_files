@@ -1,0 +1,45 @@
+# ~/.config/starship.toml
+#                  ██ ██ ███    ██ ████████ ███████ ██   ██ ██   ██ ██ 
+#                  ██ ██ ████   ██    ██    ██      ██  ██  ██  ██  ██ 
+# █████ █████      ██ ██ ██ ██  ██    ██    █████   █████   █████   ██ 
+#             ██   ██ ██ ██  ██ ██    ██    ██      ██  ██  ██  ██  ██ 
+#              █████  ██ ██   ████    ██    ███████ ██   ██ ██   ██ ██
+
+format = """
+[┌─❚ ](bold cyan)$username$hostname$directory$git_branch$git_status$nodejs
+[└──────➤ ](bold cyan)
+"""
+
+[directory]
+truncation_symbol = "../"
+truncation_length = 5
+truncate_to_repo = true
+disabled = false
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)](bold green)"
+truncation_symbol = "../"
+disabled = false
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($bold cyan) )'
+up_to_date = "✓"
+disabled = false
+
+[hostname]
+format = "[@](bold cyan)[$ssh_symbol$hostname:](bold purple) "
+ssh_only = false
+disabled = false
+
+[nodejs]
+disabled = false
+
+[shell]
+fish_indicator = ""
+style = 'bold cyan'
+disabled = true
+
+[username]
+format = "[$user](bold red)"
+show_always = true
+disabled = false
