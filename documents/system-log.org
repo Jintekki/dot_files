@@ -114,3 +114,5 @@
 - 2022-07-19: feh --bg-scale images/arch_linux_wallpaper_2.png images/arch_linux_wallpaper_vertical.png images/arch_linux_wallpaper_2.png
 - 2022-07-20: TODO: Figure out sound issues. Pulseaudio.
 - 2022-07-20: TODO: Polybar. Also, today I configured starship and installed visual-studio-code.
+- 2022-07-21: Audio through headphones is not working. Found sink was muted through pavucontrol.
+- 2022-07-21: TODO: Figure out how to use soundbar from MOBO on linux. Polybar not launching on all monitors on startup, but does after BSPWM reset.
