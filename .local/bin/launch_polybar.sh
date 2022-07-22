@@ -1,18 +1,10 @@
-#!/bin/bash
-# ~/.bash_profile
+#!/usr/bin/env bash
 #                  ██ ██ ███    ██ ████████ ███████ ██   ██ ██   ██ ██
 #                  ██ ██ ████   ██    ██    ██      ██  ██  ██  ██  ██ 
 # █████ █████      ██ ██ ██ ██  ██    ██    █████   █████   █████   ██ 
 #             ██   ██ ██ ██  ██ ██    ██    ██      ██  ██  ██  ██  ██ 
 #              █████  ██ ██   ████    ██    ███████ ██   ██ ██   ██ ██
 
-### ENVIRONMENT VARIABLES ###
-export PATH=$PATH:~/.local/bin:~/.emacs.d/bin:~/.config/rofi/bin:
-
-# [[ -f ~/.bashrc ]] && . ~/.bashrc
-
-# Autostart X at login- taken from Arch Linux wiki on 'xinit'
-# Change exec startx when testing, and return it when done for security
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
-fi
+for m in $(polybar --list-monitors | cut -d":" -f1); do
+    MONITOR=$m ~/.config/polybar/launch.sh --hack --reload example &
+done
