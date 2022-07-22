@@ -7,7 +7,6 @@
 
 ### AUTOSTART ###
 monitors.sh &
-launch_polybar.sh &
 sxhkd &
 alacritty &
 

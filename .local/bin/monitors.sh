@@ -16,3 +16,6 @@ xrandr --output $mon2 --auto --left-of $mon1 --output $mon3 --auto --left-of $mo
 
 ### WALLPAPER ###
 ~/.fehbg
+
+### POLYBAR ###
+~/.local/bin/launch_polybar.sh

@@ -116,3 +116,5 @@
 - 2022-07-20: TODO: Polybar. Also, today I configured starship and installed visual-studio-code.
 - 2022-07-21: Audio through headphones is not working. Found sink was muted through pavucontrol.
 - 2022-07-21: TODO: Figure out how to use soundbar from MOBO on linux. Polybar not launching on all monitors on startup, but does after BSPWM reset.
+- 2022-07-22: Just realized that switching a window from one screen to another now works with BSPWM. Not sure what caused that.
+- 2022-07-22: It also switches windows between monitors instead of simply adding the it to the monitor. Not sure what caused this behavior, but I love it.
