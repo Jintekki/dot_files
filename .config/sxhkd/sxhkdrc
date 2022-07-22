@@ -14,7 +14,7 @@ super + Return
 
 # program launcher
 super + d
-	~/.config/rofi/launchers/colorful/launcher.sh
+    launcher_colorful
 
 # make sxhkd reload its configuration files:
 super + Escape

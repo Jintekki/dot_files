@@ -7,7 +7,7 @@
 #              █████  ██ ██   ████    ██    ███████ ██   ██ ██   ██ ██
 
 ### ENVIRONMENT VARIABLES ###
-export PATH=$PATH:~/.local/bin:~/.emacs.d/bin
+export PATH=$PATH:~/.local/bin:~/.emacs.d/bin:~/.config/rofi/bin
 
 # [[ -f ~/.bashrc ]] && . ~/.bashrc
 
