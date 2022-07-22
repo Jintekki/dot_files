@@ -1,9 +1,11 @@
-/* colors */
+/* colors, monokai-pro */
 
 * {
-  al:    #00000000;
-  bg:    #FFFFFFFF;
-  ac:    #ffb300FF;
-  se:    #ffb30026;
-  fg:    #1F1F1FFF;
+    background:                     #2D2A2Eff;
+    background-alt:                 #2D2A2Eff;
+    foreground:                     #FFF1F3cc;
+    border:               			#85DACCff;
+    border-alt:               		#85DACCff;
+    selected:               		#85DACCff;
+    urgent:                         #F9CC6Cff;
 }
