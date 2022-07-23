@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"DejaVu Sans Mono 10";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -25,7 +25,7 @@ window {
     transparency:                   "real";
     background-color:               @bg;
     text-color:                     @fg;
-	border:							2px;
+	border:							1px;
 	border-color:					@ac;
     border-radius:                  0px;
 	width:							450px;
@@ -39,7 +39,7 @@ prompt {
 	padding: 						10px;
 	background-color: 				@al;
 	text-color: 					@ac;
-	font:							"Iosevka Nerd Font 10";
+	font:							"DejaVu Sans Mono 10";
 }
 
 entry {
@@ -97,6 +97,7 @@ element {
 element-icon {
     size:                           24px;
     border:                         0px;
+    background-color:               @al;
 }
 
 element-text {
@@ -104,6 +105,8 @@ element-text {
     horizontal-align:               0;
     vertical-align:                 0.5;
     margin:                         0px 2.5px 0px 2.5px;
+    background-color:               @al;
+    text-color:                     @fg;
 }
 
 element selected {
