@@ -7,7 +7,10 @@
 #              █████  ██ ██   ████    ██    ███████ ██   ██ ██   ██ ██
 
 ### ENVIRONMENT VARIABLES ###
-export PATH=$PATH:~/.local/bin:~/.emacs.d/bin:~/.config/rofi/bin:
+export PATH=$PATH:~/.local/bin:~/.emacs.d/bin:~/.config/rofi/bin:~/.jenv/bin:
+
+### JENV FOR JAVA DEVELOPMENT ###
+eval "$(jenv init -)"
 
 # [[ -f ~/.bashrc ]] && . ~/.bashrc
 

@@ -17,3 +17,4 @@ alias la='exa -al --color=always --group-directories-first' # list format
 alias ll='exa -l --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
+status --is-interactive; and jenv init - | source

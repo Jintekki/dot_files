@@ -56,3 +56,5 @@
 ;(unpin! t)
 
 (package! evil-tutor)
+
+(package! cider)

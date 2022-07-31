@@ -13,18 +13,27 @@
 ** alacritty
 - Terminal emulator of choice, primarily for its cross-OS compatibility
 - Config found at ~/.config/alacritty/alacritty.yml
-** awk
-- See 'gawk'
+** autoconf
+** automake
+** base
+** binutils
+** bison
 ** bash
 - Default, system-wide shell
 - Bash start-up script found in ~/.bashrc
+- Bash start-on-login script found in ~/.bash_profile
 ** bspwm
 - Current window manager, previously used i3
 - Config found at ~/.config/bspwm/bspwmrc
 - Keybinding configured using sxhkd /(see sxhkd for more details)/
+** btrfs-progs
+** clang
 ** discord
 - Configs found in ./config/discord, but haven't needed to be touched
 - Discord configs added to yadm .gitignore
+** docker
+** docker-compose
+** efibootmgr
 ** doom emacs
 - Emacs with evil mode (vim key-bindings and emulation)
 - Configs found in ~/.doom.d
@@ -32,35 +41,91 @@
 - Preferred text-editor (and it does other stuff, but I just edit text)
 - Preferred version of emacs is Doom Emacs
 - Configs found in ~/.emacs.d, but should not be touched due to Doom Emacs
+** exa
+- Modern replacement for the ls command
+** fakeroot
 ** feh
 - Used for wallpaper
 - Use feh --bg-scale [image1] [image2] [image3] to set different image on each background
+** file
+** findutils
+** firefox
 ** fish
 - Preferred shell to use in terminal emulators
+** flameshot
+** flex
 ** gawk
 - GNU awk, the GNU version of the text-processing language
 ** gimp
+- Image editor
 ** git
+** gparted
 ** grep
+** groff
+** grub
 ** gvim
 - Vim, but with clipboard functionality (and more stuff)
+** gzim
+** htop
+** icu69
+- Had to install to get live share working on Visual Studio
+** intel-ucode
+** libtool
+** libva-mesa-driver
+** linux
+** linux-firmware
+** lsof
+** m4
+** make
+** mesa
 ** mokutil
 - Used for configuring secure boot. See 'Secure Boot' section for more details
 ** neofetch
 - I just think it looks cool
+** nodejs
+** openssh
 ** pacman
 - Arch package manager
+** parted
+** patch
+** pavucontrol
+** picom
+** pkgconf
+** polybar
+** pulseaudio
+** pulseaudio-equalizer
+** pulseaudio-jack
+** pulseaudio-lirc
+** pulseaudio-zeroconf
+** pulsemixer
+** python-pywal
 ** rofi
 - Does a lot of things, I use it as an app launcher
+** rofi-calc
+** rxvt-unicode
+** sed
+** shim-signed
+- Used to enable secure boot mode on Arch Linux
 ** starship
 - Cool terminal prompt
+** sudo
 ** sxhkd
 - Program to handle key-bindings, necessary with bspwm
 - Config found at ~/.config/sxhkd/sxhkdrc
+** texinfo
+** ttf-iosevka-nerd
+** visual-studio-code-bin
+** vulkan-radeon
+** which
+** xdg-utils
+** xf86-video-amdgpu
+** xf86-video-ati
+** xorg-server
+** xorg-xinit
+** xorg-xprop
 ** yadm
 - Used to manage dot files, works just like git
-** vim
-- See 'gvim'
+** zram-generator
 * Misc
 ** Custom Scripts
 - Custom scripts are kept in ~/.local/bin
